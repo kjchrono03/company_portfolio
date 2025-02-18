@@ -75,4 +75,4 @@ Before running the project, ensure you have the following installed:
 - **vite.config.js**: Vite configuration file.
 
 ## Demo Video
-[![Watch the Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[View the Project](https://drive.google.com/file/d/18l3bZzcWmhWAuxIuDlIlnwruRtwuCuSm/view?usp=sharing)
