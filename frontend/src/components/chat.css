@@ -1,0 +1,127 @@
+.chat-container {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border: 1px solid #ccc;
+}
+.chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.chat-toggle:hover {
+    background: #0056b3;
+}
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bot-info {
+    display: flex;
+    align-items: center;
+}
+
+.bot-avatar {
+    width: 30px;  
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+.bot-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bot-status {
+    font-size: 12px;
+    color: #d1f7c4; 
+    display: flex;
+    align-items: center;
+}
+.status-icon {
+    color: #28a745; 
+    margin-right: 5px;
+}
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.chat-bubble {
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+}
+.user-message {
+    align-self: flex-end;
+    background-color: #007bff !important;
+    color: white !important;
+}
+.bot-message {
+    align-self: flex-start;
+    background-color: #28a745 !important;
+    color: white !important;
+}
+.card-footer {
+    display: flex;
+    padding: 10px;
+    background-color: #007bff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-footer input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.card-footer .btn {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    color: #007bff;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.card-footer .btn:hover {
+    background-color: #e6e6e6;
+}

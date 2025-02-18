@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg); /* Rotate the element by 360 degrees */
+  }
+}
+.animate-spin-slow {
+  animation: spin 5s linear infinite; /* Apply the spin animation with 5 seconds duration and infinite loop */
+}
