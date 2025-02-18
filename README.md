@@ -66,19 +66,10 @@ Before running the project, ensure you have the following installed:
 ### Backend
 - **/models**: Mongoose models for MongoDB collections.
 - **/routes**: API routes for handling client requests.
-- **/controllers**: Functions that define the business logic for each route.
 - **.env**: Environment variables for MongoDB connection and server configurations.
 - **server.js**: The entry point for the backend application.
 
 ### Frontend
 - **/src**: Contains React components and Tailwind CSS styles.
 - **/components**: Reusable React components.
-- **/pages**: Different pages of the application.
-- **/styles**: Tailwind CSS styles.
 - **vite.config.js**: Vite configuration file.
-
-## Contributing
-Feel free to fork the repository, open issues, and submit pull requests. Contributions are welcome!
-
-## License
-This project is open-source and available under the MIT License.
