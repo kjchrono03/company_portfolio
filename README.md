@@ -73,3 +73,6 @@ Before running the project, ensure you have the following installed:
 - **/src**: Contains React components and Tailwind CSS styles.
 - **/components**: Reusable React components.
 - **vite.config.js**: Vite configuration file.
+
+## Demo Video
+[![Watch the Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
